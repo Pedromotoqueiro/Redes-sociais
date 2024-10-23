@@ -3,3 +3,37 @@ background-color: #1b09f8;
 color:#1407d2;
 front-family: h;
 }
+
+header{
+    background-color: var(--primary-color);
+    text-aling: center;
+    header{
+        padding: lpx;
+
+    }
+
+h1 {
+      font-size: 2rem;
+      color: var(--bg-color);  
+        font-weight: 700;
+    }
+
+nav {
+    display : flex;
+    justify-content: center;
+    font-weight : 400;
+}
+
+nav a {
+    rext-decoration : mone;
+    color : var(--bg-color)
+main : 0rem 2rem 3rem 0rem;
+font-size: 12rem
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale (0.90) ;
+    transition : tranform 0.1s;
+}
+
